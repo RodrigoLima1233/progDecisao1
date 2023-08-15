@@ -4,6 +4,6 @@ deste valor, ou seja, o número lido como sendo positivo.
 '''
 
 num = int(input("Informe um número: "))
+num1 = num*-1
 
-if ( num + 1):
-    print(f"{num}")
+print(f"{num1}")

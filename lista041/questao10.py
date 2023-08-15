@@ -7,6 +7,6 @@ num = int(input("Informe um número: "))
 num2 = int(input("Informe outro número: "))
 
 if (num2 % num):
-    print(f"{num2} é divisor do primeiro número")
+    print(f"{num2} é divisível pelo primeiro número")
 else:
     print("Ele não é divisor")

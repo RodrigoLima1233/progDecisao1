@@ -4,10 +4,11 @@
 '''
 
 num = int(input("Indique um número: "))
+div = num % 2
 
-if ( num % 2 ):
+if ( div == 0 ):
     print(f"{num} é par")
 
 else:
-    print(f"{num} é ímpar")
+    print("Este número é ímpar")
 
